@@ -2,12 +2,16 @@ body{
     display: flex;
     justify-content: center;
     background-color: antiquewhite;
+    border-radius: 10px;
+    text-align: justify;
     
 }
 .contener1{
     display: flex;
-    padding: 10px;
-    width: 800px;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: justify;
+    width: 900px;
     background-color: antiquewhite;
     border-radius: 10px;
 
@@ -18,9 +22,12 @@ body{
     margin-bottom: 10px;
     background-color: rgb(1, 1, 22);
     color: white ;
-    width: 40%;
-    line-height: 50px ;
-   
+    max-width: 260px;
+    min-width: 220px;
+    line-height: 30px;
+    height: 800px;
+    font-size: 13px;
+    border-radius: 13px;
 }
 .separation1 h4 ,.separation1 h6{
     text-align: center;
@@ -41,20 +48,20 @@ body{
     text-transform: uppercase;
     padding-left: 5px;
     margin-bottom: 20px;
-    font-size: 14px;
+    font-size: 13px;
     border-bottom: 2px solid rgb(177, 170, 227);
     border-left: 5px rgb(8, 5, 5);
     
 }
 .ip p{
-    line-height: 25px;
+    line-height: 15px;
     padding-left: 5px;
-    font-size: 14px;
+    font-size: 10px;
 }
 .icon{
-    line-height: 35px;
+    line-height: 30px;
     padding-left: 5px;
-    font-size: 14px;
+    font-size: 10px;
 
 }
 /*.Qualite{
@@ -76,9 +83,20 @@ body{
     padding: 10px;
     margin-bottom: 10px;
     background-color: whitesmoke;
-    line-height: 30px;
-    width: 60%;
+    line-height: 20px;
+    max-width: 450px;
+    min-width: 300px;
+    height: 800px;
+    font-size: 20px;
+    align-items: center;
+    border-radius: 13px;
+    
    
+} 
+.right-column p{
+    line-height: 22px;
+    padding-left: 5px;
+    font-size: 13px;
 }
 
 .right-column h3{
@@ -86,19 +104,18 @@ body{
    text-transform: uppercase;
    padding-left: 5px;
    margin-bottom: 20px;
-    font-size: 15px;
+    font-size: 13px;
     border-bottom: 2px solid rgb(73, 73, 83);
     border-left: 5px black;
    
 }
-.right-column p{
-    line-height: 30px;
-    padding-left: 5px;
-    font-size: 15px;
-}
+
 .right-column{
-    font-size: 15px;
+    font-size: 13px;
+    line-height: 22px;;
 }
+
+
 
 
 
